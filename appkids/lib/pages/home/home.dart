@@ -41,15 +41,20 @@ class _Home extends State<Home> {
               width: MediaQuery.of(context).size.width,
               child: Row(
                 children: [
-                  Container(
-                    width: 65,
-                    height: 65,
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: Color(0xFFe9e9e9),
-                    ),
-                    child: Center(
-                      child: SvgPicture.asset('images/face.svg'),
+                  GestureDetector(
+                    onTap: (){
+                      Navigator.pushNamed(context, '/profile');
+                    },
+                    child: Container(
+                      width: 65,
+                      height: 65,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: Color(0xFFe9e9e9),
+                      ),
+                      child: Center(
+                        child: SvgPicture.asset('images/face.svg'),
+                      ),
                     ),
                   ),
                   SizedBox(

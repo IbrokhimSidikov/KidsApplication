@@ -4,6 +4,7 @@ import 'package:appkids/pages/health/health.dart';
 import 'package:appkids/pages/home/home.dart';
 import 'package:appkids/pages/menu/menu.dart';
 import 'package:appkids/pages/photos/photos.dart';
+import 'package:appkids/pages/profile/profile.dart';
 import 'package:appkids/pages/signin/signin.dart';
 import 'package:appkids/pages/sports/sports.dart';
 import 'package:flutter/material.dart';
@@ -32,6 +33,7 @@ class MyApp extends StatelessWidget {
         '/education': (context) => Education(),
         '/health': (context) => Health(),
         '/menu': (context) => Menu(),
+        '/profile': (context) => Profile(),
         
       },
     );
