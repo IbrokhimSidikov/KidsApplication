@@ -406,6 +406,51 @@ class _Home extends State<Home> {
                             ),
                           ],
                         ),
+                        SizedBox(height: 28,),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: [
+                            GestureDetector(
+                              onTap: () {
+                                Navigator.pushNamed(context, '/about');
+                              },
+                              child: Container(
+                                height: 157,
+                                width: 158,
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(30),
+                                  color: Color.fromARGB(255, 237, 229, 79),
+                                ),
+                                // child: SvgPicture.asset('images/'),
+                                child: Padding(
+                                  padding: const EdgeInsets.only(top: 33.0),
+                                  child: Column(
+                                    children: [
+                                      Container(
+                                        width: 74,
+                                        height: 74,
+                                        decoration: BoxDecoration(
+                                          shape: BoxShape.circle,
+                                          color: const Color.fromARGB(
+                                              255, 255, 255, 255),
+                                        ),
+                                        // child: SvgPicture.asset('images/heart_green.svg'),
+                                      ),
+                                      Text(
+                                        'About',
+                                        style: TextStyle(
+                                            fontFamily: 'Poppins',
+                                            fontSize: 20,
+                                            color: Colors.white),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ),
+                            
+                          ],
+                        ),
                       ],
                     ),
                   ),

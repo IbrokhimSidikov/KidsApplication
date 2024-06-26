@@ -1,3 +1,4 @@
+import 'package:appkids/pages/about/about.dart';
 import 'package:appkids/pages/education/education.dart';
 import 'package:appkids/pages/finance/finance.dart';
 import 'package:appkids/pages/health/health.dart';
@@ -34,6 +35,7 @@ class MyApp extends StatelessWidget {
         '/health': (context) => Health(),
         '/menu': (context) => Menu(),
         '/profile': (context) => Profile(),
+        '/about': (context) => About(),
         
       },
     );

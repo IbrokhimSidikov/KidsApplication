@@ -16,7 +16,10 @@ class _EducationState extends State<Education> {
         title: Text(
           'Education',
           style: TextStyle(
-              fontWeight: FontWeight.w600, fontSize: 30, fontFamily: 'Poppins'),
+            fontWeight: FontWeight.w600,
+            fontSize: 30,
+            fontFamily: 'Poppins',
+          ),
         ),
       ),
       body: ListView(
@@ -34,7 +37,6 @@ class _EducationState extends State<Education> {
             title: 'Math',
             expandedContent: 'dlas,dka,dkasd,askd,kmkkmkm',
           ),
-          
         ],
       ),
     );
