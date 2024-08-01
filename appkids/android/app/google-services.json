@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "806426577364",
+    "project_id": "kindererp",
+    "storage_bucket": "kindererp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806426577364:android:c7151d15eebf81ee84ae41",
+        "android_client_info": {
+          "package_name": "com.kindererp.v1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbnY5irmQqMc28msv2qVX19qwrPT2k90w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

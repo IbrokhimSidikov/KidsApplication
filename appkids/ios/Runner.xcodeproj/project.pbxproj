@@ -480,7 +480,9 @@
 				DEVELOPMENT_TEAM = 647D2L298G;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KinderERP;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -673,7 +675,9 @@
 				DEVELOPMENT_TEAM = 647D2L298G;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KinderERP;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -703,7 +707,9 @@
 				DEVELOPMENT_TEAM = 647D2L298G;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KinderERP;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
